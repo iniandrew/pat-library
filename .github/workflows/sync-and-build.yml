@@ -1,12 +1,12 @@
 name: Sync Payload Data And Build
 
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: "23 3 * * *"
-  push:
-    branches:
-      - main
+# on:
+#   workflow_dispatch:
+#   schedule:
+#     - cron: "23 3 * * *"
+#   push:
+#     branches:
+#       - main
 
 jobs:
   sync-and-verify:
